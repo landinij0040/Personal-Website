@@ -1,18 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import MyNavbar from './MyNavbar';
+
+
 
 function App() {
   return (
     <>
+      <MyNavbar />
       <Container>
-        <Row>
-          <Col>
-            <h1>Navbar</h1>
-          </Col>
-        </Row>
         <Row>
           <Col>
             <h1>JumboTron</h1>
