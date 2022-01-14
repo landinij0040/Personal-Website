@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MyNavbar from './MyNavbar';
 import ExperienceCards from './ExperienceCards';
+import SkillsCarousel from './SkillsCarousel';
 
 
 
@@ -31,12 +32,14 @@ function App() {
         </Row>
         <Row>
           <Col>
+            <h1>Experience</h1>
             <ExperienceCards />
           </Col>
         </Row>
         <Row>
           <Col>
             <h1>Skills</h1>
+            <SkillsCarousel/>
           </Col>
         </Row>  
       </Container>
