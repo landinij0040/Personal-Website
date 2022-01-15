@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import MyNavbar from './MyNavbar';
 import ExperienceCards from './ExperienceCards';
 import SkillsCarousel from './SkillsCarousel';
+import Jumbotron from './Jumbotron';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <h1>JumboTron</h1>
+            < Jumbotron />
           </Col>
         </Row>
         <Row>
