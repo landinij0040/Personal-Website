@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img_placeholder from './imgs/placeholder.jfif';
+import img_placeholder from './imgs/black.png';
 
 const skills = [1,2,3,4,5,5,7,8,9,10];
 const styleCarousel = {

@@ -1,6 +1,6 @@
 import { Placeholder } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import img_placeholder from './imgs/placeholder.jfif';
+import img_placeholder from './imgs/black.png';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from 'react-bootstrap';
@@ -10,7 +10,7 @@ const experience = [1,2,3,4,5,6];
 
 const ExperienceCard = () => {
     return (
-        <div className="shadow" style={{marginTop:'2em', width:'18em'}}>
+        <div className="shadow" style={{marginTop:'2em', width:'20em'}}>
             <Card >
                 <Card.Img variant="top" src={img_placeholder} />
                 <Card.Body>

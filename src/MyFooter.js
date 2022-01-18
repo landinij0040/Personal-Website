@@ -15,8 +15,6 @@ const MyFooter = () => (
                 <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/isaiah-landin-401a431a3/">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
-
-
             </Container>
         </footer>
     </>
