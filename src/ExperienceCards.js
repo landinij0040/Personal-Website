@@ -6,11 +6,11 @@ import Col from "react-bootstrap/Col";
 import { Container } from 'react-bootstrap';
 
 
-const experience = [1,2];
+const experience = [1,2,3,4,5,6];
 
 const ExperienceCard = () => {
     return (
-        <div className="shadow">
+        <div className="shadow" style={{marginTop:'2em', width:'18em'}}>
             <Card >
                 <Card.Img variant="top" src={img_placeholder} />
                 <Card.Body>
@@ -22,9 +22,14 @@ const ExperienceCard = () => {
     );
 };
 
+const styleExperienceCards = {
+    marginBottom : '3em'
+};
+
+
 const ExperienceCards = () => (
     <>  
-        <Container>
+        <Container style={styleExperienceCards}>
             <Row>
                 { experience.map(() => (
                     <Col>
