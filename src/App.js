@@ -9,12 +9,14 @@ import ExperienceCards from './ExperienceCards';
 import SkillsCarousel from './SkillsCarousel';
 import Jumbotron from './Jumbotron';
 import MyFooter from './MyFooter';
+import MyOffcanvas from './MyOffcanvas';
 
 
 
 function App() {
   return (
     <>
+      <MyOffcanvas />
       <MyNavbar />
       {/* <Jumbotron /> */}
       <SkillsCarousel/>
