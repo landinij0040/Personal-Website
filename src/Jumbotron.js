@@ -9,7 +9,6 @@ const Jumbotron = () => {
                 < hr/>
                 <p>It uses utility classes for typography and spacing to space content out with the larger container.</p>
             </Container>
-            
         </>
     );
 }

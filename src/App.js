@@ -8,6 +8,7 @@ import MyNavbar from './MyNavbar';
 import ExperienceCards from './ExperienceCards';
 import SkillsCarousel from './SkillsCarousel';
 import Jumbotron from './Jumbotron';
+import MyFooter from './MyFooter';
 
 
 
@@ -15,35 +16,18 @@ function App() {
   return (
     <>
       <MyNavbar />
-      <Container>
+      {/* <Jumbotron /> */}
+      <SkillsCarousel/>
+      {/* <Container> */}
+
+      <ExperienceCards />
         <Row>
-          <Col>
-            < Jumbotron />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h1>Objective</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h1>Education</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h1>Experience</h1>
-            <ExperienceCards />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h1>Skills</h1>
+          {/* <Col>
             <SkillsCarousel/>
-          </Col>
+          </Col> */}
         </Row>  
-      </Container>
+      {/* </Container> */}
+      <MyFooter />
     </>
 
   );
