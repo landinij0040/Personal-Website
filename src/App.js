@@ -11,8 +11,6 @@ import Jumbotron from './Jumbotron';
 import MyFooter from './MyFooter';
 import MyOffcanvas from './MyOffcanvas';
 
-
-
 function App() {
   return (
     <>
