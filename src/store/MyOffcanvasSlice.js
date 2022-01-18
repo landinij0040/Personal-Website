@@ -17,4 +17,5 @@ export const offcanvasSlice = createSlice({
 
 export const { show, doNotShow } = offcanvasSlice.actions;
 
+
 export default offcanvasSlice.reducer;
