@@ -16,7 +16,7 @@ const SkillsCarousel = () => (
         <div style={styleCarousel}>
             <Carousel>
                 <Carousel.Item>
-                    <div style={{backgroundColor:'$cyan-100'}}>
+                    <div className={'caro-back'}>
                         <img
                             style={stylePicAspectRatio}
                             src={isaiah}
