@@ -1,6 +1,6 @@
 import { Placeholder } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import img_placeholder from './imgs/black.png';
+import img_placeholder from '../../imgs/black.png';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from 'react-bootstrap';

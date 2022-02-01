@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img_placeholder from './imgs/black.png';
-import isaiah from './imgs/Isaiah_Landin.jpg';
+import img_placeholder from '../../imgs/black.png';
+import isaiah from '../../imgs/Isaiah_Landin.jpg';
+
 
 const skills = [1,2,3,4,5,5,7,8,9,10];
 const styleCarousel = {

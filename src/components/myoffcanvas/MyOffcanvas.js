@@ -1,6 +1,6 @@
 import Offcanvas from "react-bootstrap/Offcanvas"; 
 import { useSelector, useDispatch } from "react-redux";
-import { doNotShow } from "./store/MyOffcanvasSlice";
+import { doNotShow } from "../../store/MyOffcanvasSlice";
 
 const MyOffcanvas = () => {
     // const [show, setShow] = useState(true); // Todo put this to false

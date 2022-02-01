@@ -1,15 +1,10 @@
-import logo from './logo.svg';
-// import './App.scss';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
+
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import MyNavbar from './MyNavbar';
-import ExperienceCards from './ExperienceCards';
-import SkillsCarousel from './SkillsCarousel';
-import Jumbotron from './Jumbotron';
-import MyFooter from './MyFooter';
-import MyOffcanvas from './MyOffcanvas';
+import MyNavbar from './components/mynavbar/MyNavbar';
+import ExperienceCards from './components/experiencecards/ExperienceCards';
+import SkillsCarousel from './components/skillscarousel/SkillsCarousel';
+import MyFooter from './components/myfooter/MyFooter';
+import MyOffcanvas from './components/myoffcanvas/MyOffcanvas';
 
 function App() {
   return (
