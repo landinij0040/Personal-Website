@@ -10,7 +10,7 @@ const experience = [1,2,3,4,5,6];
 
 const ExperienceCard = () => {
     return (
-        <div className="shadow" style={{marginTop:'2em', width:'20em'}}>
+        <div className="shadow card" style={{marginTop:'2em', width:'20em'}}>
             <Card >
                 <Card.Img variant="top" src={img_placeholder} />
                 <Card.Body>

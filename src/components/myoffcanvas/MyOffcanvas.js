@@ -16,7 +16,14 @@ const MyOffcanvas = () => {
                     <Offcanvas.Title>Contact</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    Contact info
+                    <b>Email:</b> isaiahlandin004@gmail.com
+                    <br />
+                    <b>Phone:</b> 915-317-8042
+                    <br />
+                    <b>GitHub:</b> <a href="https://github.com/landinij0040">https://github.com/landinij0040</a>
+                    <br />
+                    <b>Linkedin:</b> <a href="https://www.linkedin.com/in/isaiah-landin-401a431a3/">https://www.linkedin.com/in/isaiah-landin-401a431a3/</a> 
+
                 </Offcanvas.Body>
             </Offcanvas>
         </>
