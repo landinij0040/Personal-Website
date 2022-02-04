@@ -19,7 +19,7 @@ const SkillsCarousel = () => (
         <div style={styleCarousel}>
             <Carousel>
                 <Carousel.Item>
-                    <div className={'caro-back text-center py-5'}>
+                    <div className={'bg-dark text-center py-5'} style={{'height': '40em'}} >
                         <div className={'photo-container mx-auto'}>
                             <img
                                 className={'isaiah'}
@@ -33,26 +33,34 @@ const SkillsCarousel = () => (
                             </div>
                         </div>
 
-                        <h1>
+                        <h1 className={'text-light'}>
                             My name is Isaiah Landin
                         </h1>
-                        <h2>
+                        <h2 className={'text-light'}>
                             A professional Hello World Programmer in  <b>ANY</b> language
                         </h2>
                     </div>
                 </Carousel.Item>
+                
                 {skills.map(() => (
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={img_placeholder}
-                        />
-                        
-                        <Carousel.Caption>
-                            <h1>Main Title</h1>
-                            <h2>Description</h2>
-                        </Carousel.Caption>
-                    </Carousel.Item>
+                        <Carousel.Item>
+                            <div style={{'height':'40em'}}>
+                                <img
+                                    className="d-block w-100"
+                                    src={img_placeholder}
+                                    style={{
+                                        'width': 'auto',
+                                        'height':'40em',
+
+                                    }}
+                                />
+                                <Carousel.Caption>
+                                    <h1>Main Title</h1>
+                                    <h2>Description</h2>
+                                </Carousel.Caption>
+                            </div>
+                        </Carousel.Item>
+                    
                 ))}  
             </Carousel>
         </div>
