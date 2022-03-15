@@ -1,1 +1,3 @@
-/node_modules
+/BackEndResume/node_modules
+/FrontEndResume/node_modules
+/BackEndResume/dist-server

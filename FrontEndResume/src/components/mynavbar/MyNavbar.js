@@ -11,7 +11,7 @@ const MyNavbar = () => {
         <>
             <Navbar className="bg-dark" fixed="top" bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand >Isaiah Landin</Navbar.Brand>
+                <Navbar.Brand>Isaiah Landin</Navbar.Brand>
                 <Button variant="outline-light" onClick={() => {handleOpen()}}>Contact</Button>
                 {/* <Nav.Item>
                     <Nav.Link>

@@ -1,5 +1,4 @@
 
-import Row from 'react-bootstrap/Row';
 import MyNavbar from './components/mynavbar/MyNavbar';
 import ExperienceCards from './components/experiencecards/ExperienceCards';
 import SkillsCarousel from './components/skillscarousel/SkillsCarousel';
@@ -19,7 +18,6 @@ function App() {
       </Container>
       <MyFooter />
     </>
-
   );
 }
 
