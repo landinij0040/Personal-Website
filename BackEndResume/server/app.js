@@ -12,14 +12,11 @@ import indexRouter from './routes/index';
 import usersRouter from './routes/users';
 
 var app = express();
-const __dirnamee = path.resolve();
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-console.log('Hello world');
-console.log('public');
-console.log(__dirnamee);
+
 // console.log(path.join(__dirname, 'public'))// TODO: See if this works
 app.use(express.static(path.join(__dirname, '../public')));
 
