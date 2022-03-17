@@ -8,10 +8,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/image', (req, res, next) => {
-  console.log('in the router get for /image'); 
-  var thePic = path.join(__dirname, '../../public/images/test.jpg');
-
+router.get('/image/:number', (req, res, next) => {
+  console.log(req.params.number); 
+  var number = req.params.number;
+  var thePic = path.join(__dirname, `../../public/images/${number}.png`);
   res.sendFile(thePic);
 });
 
