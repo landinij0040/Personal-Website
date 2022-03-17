@@ -1,4 +1,4 @@
-
+import React from 'react';
 import MyNavbar from './components/mynavbar/MyNavbar';
 import ExperienceCards from './components/experiencecards/ExperienceCards';
 import SkillsCarousel from './components/skillscarousel/SkillsCarousel';

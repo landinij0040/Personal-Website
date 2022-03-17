@@ -1,4 +1,4 @@
-import { Placeholder } from 'react-bootstrap';
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import img_placeholder from '../../imgs/black.png';
 import Row from "react-bootstrap/Row";

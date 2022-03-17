@@ -1,3 +1,4 @@
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import img_placeholder from '../../imgs/black.png';
 import isaiah from '../../imgs/Isaiah_Landin.jpg';

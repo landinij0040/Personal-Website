@@ -1,3 +1,4 @@
+import React from 'react';
 import Offcanvas from "react-bootstrap/Offcanvas"; 
 import { useSelector, useDispatch } from "react-redux";
 import { doNotShow } from "../../store/MyOffcanvasSlice";
