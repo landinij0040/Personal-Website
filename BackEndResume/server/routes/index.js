@@ -12,6 +12,7 @@ router.get('/image/:number', (req, res, next) => {
   console.log(req.params.number); 
   var number = req.params.number;
   var thePic = path.join(__dirname, `../../public/images/${number}.png`);
+  res.header("Access-Control-Allow-Origin", "*");
   res.sendFile(thePic);
 });
 
