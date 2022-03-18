@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from 'axios';
 import Carousel from 'react-bootstrap/Carousel';
 import img_placeholder from '../../imgs/black.png';
 import isaiah from '../../imgs/Isaiah_Landin.jpg';
@@ -15,7 +16,19 @@ const stylePicAspectRatio = {
     height: 'auto',
 };
 
-const SkillsCarousel = () => (
+const SkillsCarousel = () => {
+    // Get the skills images from the backend
+    const [skillImages, setSkillsImages] = useState([]);
+    useEffect(() => {
+        const fetchData = async () => {
+            var imageList  = await axios(`http://localhost:8000/images/image/skills`);
+            var data  = await imageList.data;
+            setSkillsImages(imageList.data);
+            // console.log(skillImages); TODO Delete later
+        };
+        fetchData();
+    },[]);
+    return (
     <>
         <div style={styleCarousel}>
             <Carousel>
@@ -43,8 +56,8 @@ const SkillsCarousel = () => (
                     </div>
                 </Carousel.Item>
                 
-                {skills.map((elem) => (
-                        <Carousel.Item>
+                {skillImages.map((elem) => (
+                        <Carousel.Item key={Math.random(skillImages.length)}>
                             <div style={{'height':'40em'}}>
                                 <img
                                     className="d-block w-100"
@@ -66,6 +79,6 @@ const SkillsCarousel = () => (
             </Carousel>
         </div>
     </>
-);
+)};
 
 export default SkillsCarousel;

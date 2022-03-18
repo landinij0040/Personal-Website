@@ -4,14 +4,9 @@ import fs from 'fs';
 var router = express.Router();
 var images = ['js'];
 
-router.get('/image/skills/:number', (req, res) =>{
-    var number = parseInt(req.params.number);
-    console.log(typeof number );
-    console.log(images);
-    var imageName = images[number];
-    console.log(imageName);
-    var thePic = path.join(__dirname, `../../public/images/skills/${imageName}.png`); 
-    console.log(thePic)
+router.get('/image/skills/:picture', (req, res) =>{
+    var picture = req.params.picture;
+    var thePic = path.join(__dirname, `../../public/images/skills/${picture}`);
     res.header("Access-Control-Allow-Origin", "*");
     res.sendFile(thePic);    
 });
@@ -25,6 +20,7 @@ router.get('/image/skills/', (req, res) => {
             picNames.push(file);
         });
         console.log(picNames); // TODO: Delete Later
+        res.header("Access-Control-Allow-Origin", "*");
         res.send(picNames);
     })
 });

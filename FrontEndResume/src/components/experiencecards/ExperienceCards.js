@@ -9,7 +9,7 @@ import axios from 'axios';
 const experience = [1,2,3];
 
 const ExperienceCard = (props) => {
-    console.log(props.num);
+    // console.log(props.num);
     return (
         <div className="shadow card" style={{marginTop:'2em', width:'20em'}}>
             <Card >
