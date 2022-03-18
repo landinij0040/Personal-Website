@@ -6,7 +6,7 @@ import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const skills = [1,2,3,4,5,5,7,8,9,10];
+const skills = [0];
 const styleCarousel = {
     marginBottom:  '3em'
 };
@@ -43,12 +43,12 @@ const SkillsCarousel = () => (
                     </div>
                 </Carousel.Item>
                 
-                {skills.map(() => (
+                {skills.map((elem) => (
                         <Carousel.Item>
                             <div style={{'height':'40em'}}>
                                 <img
                                     className="d-block w-100"
-                                    src={img_placeholder}
+                                    src={`http://localhost:8000/images/image/skills/${elem}`}
                                     style={{
                                         'width': 'auto',
                                         'height':'40em',

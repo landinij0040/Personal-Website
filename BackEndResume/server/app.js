@@ -11,6 +11,8 @@ import indexRouter from './routes/index';
 // var usersRouter = require('./routes/users');
 import usersRouter from './routes/users';
 
+import imagesRouter from './routes/images';
+
 var app = express();
 app.use(logger('dev'));
 app.use(express.json());
@@ -22,6 +24,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/images', imagesRouter);
 
 // module.exports = app;
 export default app;
