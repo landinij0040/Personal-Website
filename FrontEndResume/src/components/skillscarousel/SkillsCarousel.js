@@ -69,8 +69,8 @@ const SkillsCarousel = () => {
                                     }}
                                 />
                                 <Carousel.Caption>
-                                    <h1>Main Title</h1>
-                                    <h2>Description</h2>
+                                    <h1>{elem.replace('.svg','')}</h1>
+                                    {/* <h2>Description</h2> */}
                                 </Carousel.Caption>
                             </div>
                         </Carousel.Item>
