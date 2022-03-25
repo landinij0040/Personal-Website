@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   width="400"
-   height="200"
-   viewBox="0 0 52.647815 26.32"
-   preserveAspectRatio="xMinYMin meet"
+   width="400mm"
+   height="200mm"
+   viewBox="0 0 400 200"
    version="1.1"
-   id="svg19"
-   sodipodi:docname="Flask.svg"
+   id="svg827"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="Test.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    style="background-color: #000000"
    >
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.32026164"
+     inkscape:cx="488.66295"
+     inkscape:cy="446.50992"
+     inkscape:window-width="1827"
+     inkscape:window-height="1166"
+     inkscape:window-x="82"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs23">
+     id="defs824">
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath291">
@@ -38,28 +58,10 @@
          transform="matrix(0.04114949,0,0,0.04587711,22.561758,7.7067072)" />
     </clipPath>
   </defs>
-  <sodipodi:namedview
-     id="namedview21"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.0047891"
-     inkscape:cx="168.84569"
-     inkscape:cy="170.0927"
-     inkscape:window-width="1827"
-     inkscape:window-height="1166"
-     inkscape:window-x="82"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
   <g
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="color">
+     id="layer1">
     <rect
        style="fill:#ffffff;stroke-width:0.13162"
        id="rect2159"
@@ -67,6 +69,7 @@
        height="15.034436"
        x="17.332277"
        y="6.2369928"
-       clip-path="url(#clipPath2241)" />
+       clip-path="url(#clipPath2241)"
+       transform="matrix(7.5942501,0,0,7.5942501,-11.339518,-8.5268182)" />
   </g>
 </svg>
