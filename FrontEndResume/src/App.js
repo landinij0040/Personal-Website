@@ -16,6 +16,9 @@ function App() {
         <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
         <ExperienceCards />
       </Container>
+      <Container fluid className="bg-dark">
+        <h1 className="text-light" style={{'fontSize':'2.5rem'}}>Education</h1>
+      </Container>
       <MyFooter />
     </>
   );
