@@ -13,7 +13,11 @@ const MyNavbar = () => {
             <Navbar className="bg-dark" fixed="top" bg="dark" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand>Isaiah Landin</Navbar.Brand>
-                <Button variant="outline-light" onClick={() => {handleOpen()}}>Contact</Button>
+                <div>
+                    <Button style={{position:'absolute', marginTop:'5px', marginLeft:'8px'}} className="contact" variant="outline-light" onClick={() => {handleOpen()}}>Contact</Button>
+                    <div className="contact-animation" onClick={() => {handleOpen()}}></div>
+                </div>
+                
                 {/* <Nav.Item>
                     <Nav.Link>
                         Test
