@@ -4,17 +4,21 @@ import fs from 'fs';
 var router = express.Router();
 var images = ['js'];
 
-router.get('/image/skills/:picture', (req, res) =>{
+router.get('/image/:folder/:picture', (req, res) =>{
     var picture = req.params.picture;
-    var thePic = path.join(__dirname, `../../public/images/skills/${picture}`);
+    console.log(picture);
+    var folder = req.params.folder;
+    console.log(folder)
+    var thePic = path.join(__dirname, `../../public/images/${folder}/${picture}`);
+    console.log(thePic);
     res.header("Access-Control-Allow-Origin", "*");
     res.sendFile(thePic);    
 });
 
-router.get('/image/skills/', (req, res) => {
-    var thePath = path.join(__dirname, '../../public/images/skills');
+router.get('/image/:folder', (req, res) => {
+    var folder = req.params.folder;
+    var thePath = path.join(__dirname, `../../public/images/${folder}`);
     var picNames = [];
-    // console.log(thePath); // TODO: Delete
     fs.readdir(thePath, (err, files) => {
         files.forEach( file => {
             picNames.push(file);
@@ -24,5 +28,8 @@ router.get('/image/skills/', (req, res) => {
         res.send(picNames);
     })
 });
+
+
+
 
 export default router;

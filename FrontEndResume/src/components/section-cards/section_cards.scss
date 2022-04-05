@@ -1,0 +1,22 @@
+// @import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
+// @import "../../../node_modules/bootstrap/scss/mixins";
+// @use "../../../node_modules/bootstrap/scss/functions";
+
+.card-image-height {
+    height: 312px;
+}
+
+// @mixin media-breakpoint-only
+// @include media-breakpoint-only(xs) { 
+//     .card-image-height {
+//         height: 312px;
+//     }
+// }
+
+@include media-breakpoint-between(xs, lg) { 
+    .card-image-height {
+        height: 312px;
+    }
+}

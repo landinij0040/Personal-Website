@@ -1,4 +1,7 @@
+@use "../node_modules/bootstrap/scss/bootstrap";
 @use "components/skillscarousel/skills_carousel";
 @use "components/experiencecards/experience_cards";
 @use "components/mynavbar/contact-btn.scss";
-// @use "../node_modules/bootstrap/scss/variables";
+// @use "../node_modules/bootstrap/scss/mixins";
+@use "components/section-cards/section_cards.scss";
+

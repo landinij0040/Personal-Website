@@ -7,25 +7,63 @@ import SkillsCarousel from './components/skillscarousel/SkillsCarousel';
 import MyFooter from './components/myfooter/MyFooter';
 import MyOffcanvas from './components/myoffcanvas/MyOffcanvas';
 import { Container } from 'react-bootstrap';
+import Cards from './components/section-cards/SectionCards';
 
 function App() {
+  // const homePage = {
+  //   // Title
+  //   // Paragraph
+  //   // Cards
+  // }
+  const altSections = [
+    [
+    <>
+      <h1 style={{'fontSize':'2.5rem'}}>Projects</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p>
+    </>,
+    "projects"
+    ],
+    [
+    <>
+      <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p> 
+    </>,
+    "experience"
+    ],
+    [
+      <>
+        <h1 style={{'fontSize':'2.5rem'}}>Education</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p>
+      </>,
+      "education"
+    ]
+  ]
   return (
     <>
       <MyOffcanvas />
       <MyNavbar />
       <SkillsCarousel/>
-      <Container>
-        <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
-        <ExperienceCards />
-      </Container>
-      <Container fluid className="bg-dark">
-        <h1 className="text-light" style={{'fontSize':'2.5rem'}}>Education</h1>
-        <EducationCards />
-      </Container>
-      <Container fluid>
-        <h1 style={{'fontSize':'2.5rem'}}>Projects</h1>
-        <ProjectCards />
-      </Container>
+      {altSections.map((elem, index) => {
+        if(index % 2 === 0){
+          return (
+            <Container fluid className="p-5">
+              {elem[0]}
+              <Cards apiTitle={elem[1]}/>
+            </Container>
+          )
+        }else{
+          return(
+            <Container fluid className="bg-dark text-light p-5">
+              {elem[0]}
+              <div className="text-dark">
+                <Cards apiTitle={elem[1]}/>
+              </div>
+              
+            </Container>
+          )
+        }
+          
+      })}
       <MyFooter />
     </>
   );
