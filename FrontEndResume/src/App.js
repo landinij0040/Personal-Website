@@ -61,9 +61,9 @@ function App() {
               
             </Container>
           )
-        }
-          
+        }    
       })}
+      {/* <EducationCards/> */}
       <MyFooter />
     </>
   );

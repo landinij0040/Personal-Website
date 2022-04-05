@@ -13,7 +13,7 @@ const EducationCard = (props) => {
     return (
         <div className="shadow card" style={{marginTop:'2em', width:'20em'}}>
             <Card >
-                <Card.Img variant="top" src={`http://localhost:8000/image/${props.num}`} />
+                {/* <Card.Img variant="top" src={`http://localhost:8000/image/${props.num}`} /> */}
                 <Card.Body>
                     <Card.Title><h1><u>Place</u>/Title</h1><br/>Date</Card.Title>
                     <Card.Text>Description</Card.Text>
@@ -38,10 +38,11 @@ const EducationCards = () => {
     // setImages(oldImages => [...oldImages, newImage]);
     return (
     <>  
-        <Container style={styleExperienceCards}>
+        {/* <Container style={styleExperienceCards}> */}
+        <Container>
             <Row>
                 { experience.map((elem) => (
-                    <Col>
+                    <Col xs={4}>
                         <EducationCard num={elem} />
                     </Col>                    
                 ))}

@@ -6,7 +6,6 @@ import isaiah from '../../imgs/Isaiah_Landin.jpg';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
 const skills = [0];
 const styleCarousel = {
     marginBottom:  '3em'
@@ -73,8 +72,7 @@ const SkillsCarousel = () => {
                                     {/* <h2>Description</h2> */}
                                 </Carousel.Caption>
                             </div>
-                        </Carousel.Item>
-                    
+                        </Carousel.Item>    
                 ))}  
             </Carousel>
         </div>

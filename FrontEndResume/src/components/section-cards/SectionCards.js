@@ -8,7 +8,8 @@ import axios from 'axios';
 const CardComp = (props) => {
     console.log(props.image);
     return (
-        <div className="shadow card my-4" >
+        <div className="shadow card my-4"  >
+        {/* <div className="shadow card my-4" > */}
             <Card >
                 <Card.Img className=" card-image-height" variant="top" src={`http://localhost:8000/images/image/${props.apiTitle}/${props.image}`} />
                 <Card.Body>
@@ -37,15 +38,15 @@ const Cards = (props) => {
     },[]);
     return (
     <>  
-        <Container style={styleExperienceCards}>
+        {/* <Container style={styleExperienceCards}> */}
+        <Container>
             <Row>
-                <div className="px-0 my-3">
+                {/* <div className="px-0 my-3"> */}
                     { images.map((elem) => (
-                        <Col>
+                        <Col xs={4} className="px-0 my-3">
                             <CardComp apiTitle={props.apiTitle} image={elem} />
                         </Col>                    
                     ))}
-                </div> 
             </Row>
         </Container>
     </>
