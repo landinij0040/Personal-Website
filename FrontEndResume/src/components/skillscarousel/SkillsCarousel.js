@@ -30,7 +30,7 @@ const SkillsCarousel = () => {
     },[]);
     return (
     <>
-        <div style={styleCarousel}>
+        <div>
             <Carousel>
                 <Carousel.Item>
                     <div className={'bg-dark text-center py-5'} style={{'height': '40em'}} >
