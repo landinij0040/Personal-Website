@@ -1,22 +1,37 @@
-// @import "../../../node_modules/bootstrap/scss/variables";
+
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-@import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
-// @import "../../../node_modules/bootstrap/scss/mixins";
-// @use "../../../node_modules/bootstrap/scss/functions";
+// @import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
+
+
+
+.card-image-width{
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.card-image-margin-x{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 
 .card-image-height {
     height: 312px;
 }
 
-// @mixin media-breakpoint-only
-// @include media-breakpoint-only(xs) { 
-//     .card-image-height {
-//         height: 312px;
-//     }
-// }
-
 @include media-breakpoint-between(xs, lg) { 
     .card-image-height {
         height: 312px;
+    }
+
+    .card-image-margin-x{
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .card-image-width{
+        flex: 0 0 auto;
+        width: 30%;
     }
 }

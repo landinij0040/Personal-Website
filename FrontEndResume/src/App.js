@@ -43,8 +43,12 @@ function App() {
       <MyOffcanvas />
       <MyNavbar />
       <SkillsCarousel/>
+      <Container className="p-5">
+        <h1 style={{'fontSize':'2.5rem'}}>Making Of Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p>
+      </Container>
       {altSections.map((elem, index) => {
-        if(index % 2 === 0){
+        if(index % 2 !== 0){
           return (
             <Container fluid className="p-5">
               {elem[0]}
