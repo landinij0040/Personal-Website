@@ -7,6 +7,9 @@ import SkillsCarousel from './components/skillscarousel/SkillsCarousel';
 import MyFooter from './components/myfooter/MyFooter';
 import MyOffcanvas from './components/myoffcanvas/MyOffcanvas';
 import { Container } from 'react-bootstrap';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 import Cards from './components/section-cards/SectionCards';
 import YouTube from 'react-youtube';
 
@@ -17,30 +20,76 @@ function App() {
   //   // Cards
   // }
   const altSections = [
+    // [
+    //   <>
+    //     <h1 style={{'fontSize':'2.5rem'}}>Projects</h1>
+    //     <p>Below are some of the projects that I have worked on.</p>
+    //   </>,
+    //   "projects"
+    // ],
+    // [
+    //   <>
+    //     <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
+    //     <p>Below details my experience.</p> 
+    //   </>,
+    //   "experience"
+    // ],
     [
-    <>
-      <h1 style={{'fontSize':'2.5rem'}}>Projects</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p>
-    </>,
-    "projects"
-    ],
-    [
-    <>
-      <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p> 
-    </>,
-    "experience"
-    ],
-    [
-      <>
-        <h1 style={{'fontSize':'2.5rem'}}>Education</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. </p>
-      </>,
-      "education"
+        <>
+          <h1 style={{'fontSize':'2.5rem'}}>Education</h1>
+          <p>Below details my education.</p>
+        </>,
+        "education",
+        [
+          {
+            "image": "UTEP.png",
+            "title":<>
+                      <h3>
+                        University of Texas at El Paso 
+                      </h3>
+                    </>,
+            "text":<>
+                    Bachelor of Science in Computer Science
+                    <br/>
+                    2018-2021
+                    <br/>
+                    GPA: 3.5
+                  </>,
+            "website":"https://www.utep.edu/"
+          },{
+            "image": "EPCC.png",
+            "title":<>
+                      <h3>
+                        El Paso Community College
+                      </h3>
+                    </>,
+            "text":<>
+                    Associate of Science General Sciences
+                    <br/>
+                    2015-2018
+                    <br/>
+                    GPA: 4.0
+                  </>,
+            "website":"https://www.epcc.edu/"
+          },{
+            "image":"TMECHS.png",
+            "title":<>
+                      <h3>
+                        Transmountain Early College Highschool
+                      </h3>
+                    </>,
+            "text":<>
+                    Highschool Diploma
+                    <br/>
+                    2015-2018
+                    <br/>
+                    GPA: 4.0
+                  </>,
+            "website":"https://www.episd.org/tmechs"
+          },
+        ]
     ]
   ];
-
-
   const vids = [
     "fC-lGtz063o",
     "636LptRbPzI",
@@ -73,29 +122,29 @@ function App() {
           );
         })}        
           
-        
-        
       </Container>
-      {altSections.map((elem, index) => {
-        if(index % 2 !== 0){
-          return (
-            <Container fluid className="p-5">
-              {elem[0]}
-              <Cards apiTitle={elem[1]}/>
-            </Container>
-          )
-        }else{
-          return(
-            <Container fluid className="bg-dark text-light p-5">
-              {elem[0]}
-              <div className="text-dark">
+      <Router>
+        {altSections.map((elem, index) => {
+          if(index % 2 !== 0){
+            return (
+              <Container fluid className="p-5">
+                {elem[0]}
                 <Cards apiTitle={elem[1]}/>
-              </div>
-              
-            </Container>
-          )
-        }    
-      })}
+              </Container>
+            )
+          }else{
+            return(
+              <Container fluid className="bg-dark text-light p-5">
+                {elem[0]}
+                <div className="text-dark">
+                  <Cards apiTitle={elem[1]} cardsArray={elem[2]}/>
+                </div>
+              </Container>
+            )
+          }    
+        })}
+      </Router>
+      
       {/* <EducationCards/> */}
       <MyFooter />
     </>
