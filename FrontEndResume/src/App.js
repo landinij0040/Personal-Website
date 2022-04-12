@@ -20,20 +20,78 @@ function App() {
   //   // Cards
   // }
   const altSections = [
-    // [
-    //   <>
-    //     <h1 style={{'fontSize':'2.5rem'}}>Projects</h1>
-    //     <p>Below are some of the projects that I have worked on.</p>
-    //   </>,
-    //   "projects"
-    // ],
-    // [
-    //   <>
-    //     <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
-    //     <p>Below details my experience.</p> 
-    //   </>,
-    //   "experience"
-    // ],
+    [
+      <>
+        <h1 style={{'fontSize':'2.5rem'}}>Projects</h1>
+        <p>Below are some of the projects that I have worked on.</p>
+      </>,
+      "projects",
+      [
+        {
+          "image": "PersonalWebsite.png",
+          "title":<>
+                    <h3>
+                      Personal Website
+                    </h3>
+                  </>,
+          "text":<>
+                This is the current website you are looking at!
+                </>,
+          "website":"https://github.com/landinij0040/Personal-Website"
+        },{
+          "image": "AVERT.png",
+          "title":<>
+                    <h3>
+                      AVERT
+                    </h3>
+                  </>,
+          "text":<>
+                   This application is a Penetration Testing helper application developed with Vue.js and Flask.
+                </>,
+          "website":"https://github.com/komodo6/AVERT"
+        },
+      ]
+    ],
+    [
+      <>
+        <h1 style={{'fontSize':'2.5rem'}}>Experience</h1>
+        <p>Below details my experience.</p> 
+      </>,
+      "experience",
+      [
+        {
+          "image": "innovativeManage.png",
+          "title":<>
+                    <h3>
+                      innovativeMange
+                    </h3>
+                  </>,
+          "text":<>
+                  Frontend Devloper Intern
+                  <br/>
+                  Feb 2021- July 2021
+                  <br />
+                  1335 Pullman Dr, El Paso, TX 79936
+                </>,
+          "website":"https://www.linkedin.com/company/innovativemanage-inc/"
+        },{
+          "image": "Walmart.png",
+          "title":<>
+                    <h3>
+                      Walmart
+                    </h3>
+                  </>,
+          "text":<>
+                  Produce Associate
+                  <br/>
+                  Aug 2018 - Nov 2018
+                  <br />
+                  12236 Montana Ave, El Paso, TX 79938
+                </>,
+          "website":"https://www.walmart.com/store/3763-el-paso-tx"
+        }
+      ]
+    ],
     [
         <>
           <h1 style={{'fontSize':'2.5rem'}}>Education</h1>
@@ -129,7 +187,7 @@ function App() {
             return (
               <Container fluid className="p-5">
                 {elem[0]}
-                <Cards apiTitle={elem[1]}/>
+                <Cards apiTitle={elem[1]} cardsArray={elem[2]}/>
               </Container>
             )
           }else{
