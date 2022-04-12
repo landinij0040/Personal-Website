@@ -19,9 +19,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// console.log(path.join(__dirname, 'public'))// TODO: See if this works
-app.use(express.static(path.join(__dirname, '../public')));
-
+// app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../../FrontEndResume/build')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/images', imagesRouter);
