@@ -1,7 +1,5 @@
 import path from 'path';
 import express from 'express';
-import fs from 'fs';
-import images from './imageOrganizer';
 var router = express.Router();
 // var images = ['js'];
 
