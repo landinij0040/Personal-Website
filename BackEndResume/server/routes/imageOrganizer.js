@@ -19,16 +19,17 @@ const images = {
     ],
     "education":[
         {
+            "image": "EPCC.png",
+            "title": "El Paso Community College",
+            "text": "Just Testing some stuff ou"
+        },
+        {
             "image": "TMECHS.png"
             "title":"",
             "text": "'"
 
         },
-        {
-            "image": "EPCC.png",
-            "title": "El Paso Community College",
-            "text": "Just Testing some stuff ou"
-        },
+        
     ],
 };
 
