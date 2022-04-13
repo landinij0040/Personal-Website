@@ -3,3 +3,4 @@
 /FrontEndResume/build
 /BackEndResume/dist-server
 *.pem
+*.ppk
