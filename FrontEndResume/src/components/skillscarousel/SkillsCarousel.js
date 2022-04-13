@@ -17,16 +17,34 @@ const stylePicAspectRatio = {
 
 const SkillsCarousel = () => {
     // Get the skills images from the backend
-    const [skillImages, setSkillsImages] = useState([]);
-    useEffect(() => {
-        const fetchData = async () => {
-            var imageList  = await axios(`http://localhost:8000/images/image/skills`);
-            var data  = await imageList.data;
-            setSkillsImages(imageList.data);
-            // console.log(skillImages); TODO Delete later
-        };
-        fetchData();
-    },[]);
+    // const [skillImages, setSkillsImages] = useState([]);
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         var imageList  = await axios(`http://localhost:8000/images/image/skills`);
+    //         var data  = await imageList.data;
+    //         setSkillsImages(imageList.data);
+    //         // console.log(skillImages); TODO Delete later
+    //     };
+    //     fetchData();
+    // },[]);
+
+    const skillImages = [
+        "Bootstrap.svg",
+        "CSS.svg",
+        "Expressjs.svg",
+        "Figma.svg",
+        "Flask.svg",
+        "Github.svg",
+        "HTML.svg",
+        "JavaScript.svg",
+        "MongoDB.svg",
+        "Mysql.svg",
+        "Nodejs.svg",
+        "PHP.svg",
+        "Python.svg",
+        "React.svg",
+        "Sass.svg"
+    ];
     return (
     <>
         <div>

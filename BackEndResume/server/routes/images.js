@@ -14,7 +14,7 @@ router.get('/image/:folder/:picture', (req, res) => {
     res.sendFile(thePic);    
 });
 
-router.get('/image/:section', (req, res) => {
+router.get('/image/:section', (req, res) => { // TODO: I dont think I need this
     var section = req.params.section;
     console.log(section);
     console.log(images);
