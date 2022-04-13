@@ -12,7 +12,16 @@ import {
 } from "react-router-dom";
 import Cards from './components/section-cards/SectionCards';
 import YouTube from 'react-youtube';
-
+// Education
+import EPPC from './images/education/EPCC.png';
+import TMECHS from './images/education/TMECHS.png';
+import UTEP from './images/education/UTEP.png';
+// Experience
+import innovativeManage from './images/experience/innovativeManage.png';
+import Walmart from './images/experience/Walmart.png';
+// Projects
+import PersonalWebsite from './images/projects/PersonalWebsite.png';
+import AVERT from './images/projects/AVERT.png';
 function App() {
   // const homePage = {
   //   // Title
@@ -28,7 +37,7 @@ function App() {
       "projects",
       [
         {
-          "image": "PersonalWebsite.png",
+          "image": PersonalWebsite,
           "title":<>
                     <h3>
                       Personal Website
@@ -39,7 +48,7 @@ function App() {
                 </>,
           "website":"https://github.com/landinij0040/Personal-Website"
         },{
-          "image": "AVERT.png",
+          "image": AVERT,
           "title":<>
                     <h3>
                       AVERT
@@ -60,7 +69,7 @@ function App() {
       "experience",
       [
         {
-          "image": "innovativeManage.png",
+          "image": innovativeManage,
           "title":<>
                     <h3>
                       innovativeMange
@@ -75,7 +84,7 @@ function App() {
                 </>,
           "website":"https://www.linkedin.com/company/innovativemanage-inc/"
         },{
-          "image": "Walmart.png",
+          "image": Walmart,
           "title":<>
                     <h3>
                       Walmart
@@ -100,7 +109,7 @@ function App() {
         "education",
         [
           {
-            "image": "UTEP.png",
+            "image": UTEP,
             "title":<>
                       <h3>
                         University of Texas at El Paso 
@@ -115,7 +124,7 @@ function App() {
                   </>,
             "website":"https://www.utep.edu/"
           },{
-            "image": "EPCC.png",
+            "image": EPPC,
             "title":<>
                       <h3>
                         El Paso Community College
@@ -130,7 +139,7 @@ function App() {
                   </>,
             "website":"https://www.epcc.edu/"
           },{
-            "image":"TMECHS.png",
+            "image":TMECHS,
             "title":<>
                       <h3>
                         Transmountain Early College Highschool

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 400 200"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="HTML.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   width="400"
+   height="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   style="background-color: #D64D1D"
+   >
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.9719514"
+     inkscape:cx="188.94995"
+     inkscape:cy="94.663797"
+     inkscape:window-width="1827"
+     inkscape:window-height="1166"
+     inkscape:window-x="82"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <title
+     id="title2">HTML5 Logo</title>
+  <path
+     d="m 174.88322,60 h 3.80373 v 3.770697 h 3.50619 V 60 h 3.80373 v 11.411239 h -3.80373 v -3.803734 h -3.47287 v 3.803734 h -3.83705 M 191.02446,63.80373 H 187.667 V 60 h 10.53501 v 3.80373 h -3.37384 v 7.607509 h -3.80371 M 199.87208,60 h 3.98578 l 2.44761,4.018739 L 208.75309,60 h 3.98578 v 11.411239 h -3.80372 v -5.655993 l -2.66249,4.101413 -2.66302,-4.101413 v 5.655993 h -3.73756 M 214.62434,60 h 3.8037 v 7.640587 h 5.3912 v 3.770652 h -9.1949"
+     id="path4"
+     style="stroke-width:0.165361;fill:#ffffff" />
+  <path
+     fill="#e44d26"
+     d="M 175.45734,136.59896 170,75.34181 h 60 l -5.45734,61.22373 -24.59237,6.81353"
+     id="path6"
+     style="fill:#f16529;fill-opacity:1;stroke-width:0.165361" />
+  <path
+     fill="#f16529"
+     d="M 199.29354,139.46537 V 81.664839 h 24.5257 l -4.68029,52.260111"
+     id="path8"
+     style="fill:#e27c51;fill-opacity:1;stroke-width:0.165361" />
+  <path
+     fill="#ebebeb"
+     d="m 180.44005,89.15657 h 18.85349 v 7.508269 H 188.6758 l 0.69497,7.690181 h 9.92277 v 7.49177 h -16.80292 m 0.33083,3.77059 h 7.5413 l 0.52935,6.00335 8.40144,2.24914 v 7.83913 l -15.41345,-4.30005"
+     id="path10"
+     style="stroke-width:0.165361" />
+  <path
+     fill="#ffffff"
+     d="m 218.11358,89.15657 h -18.82004 v 7.508269 h 18.12563 m -0.67808,7.690181 h -17.44755 v 7.50822 h 9.26104 l -0.8765,9.75749 -8.38454,2.24914 v 7.80594 l 15.38006,-4.26686"
+     id="path12"
+     style="stroke-width:0.165361" />
+  <metadata
+     id="metadata835">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>HTML5 Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

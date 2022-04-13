@@ -6,6 +6,8 @@ import isaiah from '../../imgs/Isaiah_Landin.jpg';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+// import BootstrapImage from '../../images/skills/Bootstrap.svg';
+
 const skills = [0];
 const styleCarousel = {
     marginBottom:  '3em'

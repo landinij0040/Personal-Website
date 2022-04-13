@@ -8,7 +8,8 @@ const CardComp = (props) => {
     return (
         <div className="shadow card" onClick={ () => window.location.href = props.website}>
             <Card >
-                <Card.Img style={{objectFit:'contain'}} className=" card-image-height" variant="top" src={`http://localhost:8000/images/image/${props.apiTitle}/${props.image}`} />
+                {/* <Card.Img style={{objectFit:'contain'}} className=" card-image-height" variant="top" src={`http://localhost:8000/images/image/${props.apiTitle}/${props.image}`} /> */}
+                <Card.Img style={{objectFit:'contain'}} className=" card-image-height" variant="top" src={props.image} />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.text}</Card.Text>

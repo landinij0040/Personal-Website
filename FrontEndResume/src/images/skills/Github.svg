@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="200"
+   viewBox="0 0 400 200"
+   version="1.1"
+   id="svg3254"
+   sodipodi:docname="Github.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   style="background-color:#000000"
+   >
+  <defs
+     id="defs3258">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3601">
+      <path
+         d="m 205.56329,56.611961 c -22.08667,0 -40,18.36277 -40,41.011213 0,18.120116 11.46,33.492486 27.35666,38.916226 1.99667,0.37935 2.64334,-0.892 2.64334,-1.97196 v -7.63492 c -11.12667,2.48118 -13.44334,-4.83932 -13.44334,-4.83932 -1.82,-4.74022 -4.44333,-6.00131 -4.44333,-6.00131 -3.63,-2.54611 0.27667,-2.49143 0.27667,-2.49143 4.01666,0.28708 6.13,4.22757 6.13,4.22757 3.56666,6.26788 9.35666,4.45655 11.64,3.40735 0.35666,-2.64864 1.39333,-4.45997 2.54,-5.48183 -8.88334,-1.04237 -18.22334,-4.55908 -18.22334,-20.269795 0,-4.480475 1.56334,-8.137308 4.12,-11.008093 -0.41333,-1.035533 -1.78333,-5.208424 0.39,-10.854301 0,0 3.36,-1.100467 11.00334,4.20365 3.19,-0.909082 6.61,-1.363623 10.01,-1.380711 3.4,0.01709 6.82333,0.471629 10.02,1.380711 7.63666,-5.304117 10.99,-4.20365 10.99,-4.20365 2.17666,5.649295 0.80666,9.822186 0.39333,10.854301 2.56667,2.870785 4.11667,6.531036 4.11667,11.008093 0,15.751725 -9.35667,19.220585 -18.26334,20.235615 1.43334,1.27135 2.74334,3.7662 2.74334,7.59391 v 11.25416 c 0,1.09022 0.64,2.37182 2.67,1.96854 15.88333,-5.43057 27.33,-20.79952 27.33,-38.912806 0,-22.648443 -17.91,-41.011213 -40,-41.011213 z"
+         id="path3603"
+         style="stroke-width:3.3752" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview3256"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.8723958"
+     inkscape:cx="159.95549"
+     inkscape:cy="99.337969"
+     inkscape:window-width="1827"
+     inkscape:window-height="1166"
+     inkscape:window-x="82"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer5" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="White Log">
+    <rect
+       style="fill:#ffffff"
+       id="rect3519"
+       width="166.09735"
+       height="114.29207"
+       x="131.91655"
+       y="52.873436"
+       clip-path="url(#clipPath3601)" />
+  </g>
+</svg>

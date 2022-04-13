@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="200"
+   viewBox="0 0 81.92 40.950201"
+   width="400"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="Bootstrap.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   style="background-color: #7653B5 "
+   >
+  <defs
+     id="defs8">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1256">
+      <path
+         d="M 106.344,0 C 77.13,0 55.513,25.570001 56.480999,53.300001 57.410001,79.941001 56.203,114.445 47.517,142.583 38.799999,170.8 24.068,188.681 0,190.976 v 25.912 c 24.068,2.3 38.799999,20.172 47.516,48.39301 8.687,28.13798 9.892999,62.64199 8.964,89.28299 -0.967999,27.72601 20.649001,53.3 49.868,53.3 h 299.347 c 29.214,0 50.82699,-25.57 49.85901,-53.3 -0.92902,-26.641 0.27799,-61.14501 8.96399,-89.28299 C 473.23501,237.06 487.931,219.181 512,216.888 v -25.912 c -24.06799,-2.3 -38.76399,-20.172 -47.482,-48.393 -8.687,-28.134 -9.89301,-62.641999 -8.96399,-89.282999 C 456.52199,25.574 434.909,0 405.695,0 H 106.34 Z m 240.775,251.06701 c 0,38.18299 -28.481,61.33999 -75.746,61.33999 h -80.458 a 8.678,8.678 0 0 1 -8.678,-8.67801 V 104.136 a 8.678,8.678 0 0 1 8.678,-8.677999 h 79.99999 c 39.41102,0 65.27601,21.347999 65.27601,54.123999 0,23.005 -17.4,43.6 -39.56699,47.208 v 1.2 c 30.17598,3.31 50.49499,24.21 50.49499,53.07701 z M 262.60001,122.967 h -45.876 v 64.8 h 38.63898 c 29.87002,0 46.34001,-12.028 46.34001,-33.527 -0.003,-20.148 -14.163,-31.273 -39.10299,-31.273 z m -45.876,90.51099 v 71.41102 h 47.564 c 31.09999,0 47.57299,-12.47902 47.57299,-35.93101 0,-23.452 -16.93499,-35.484 -49.57301,-35.484 h -45.56398 z"
+         fill="#7952b3"
+         fill-rule="evenodd"
+         id="path1258"
+         style="stroke-width:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.8875502"
+     inkscape:cx="157.05355"
+     inkscape:cy="118.78581"
+     inkscape:window-width="1827"
+     inkscape:window-height="1166"
+     inkscape:window-x="82"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Bottom"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;stroke-width:0.426706"
+       id="rect1056"
+       width="509.54099"
+       height="405.22549"
+       x="1.6048523"
+       y="1.556053"
+       clip-path="url(#clipPath1256)"
+       transform="matrix(0.03215443,0,0,0.03215443,32.70813,14.156409)" />
+  </g>
+</svg>

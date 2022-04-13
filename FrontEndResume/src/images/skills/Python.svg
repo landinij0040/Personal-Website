@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="200"
+   viewBox="0 0 400 200"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg1257"
+   sodipodi:docname="Python.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   style="background-color: #436C9D"
+   >
+  <sodipodi:namedview
+     id="namedview1259"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.9875276"
+     inkscape:cx="170.90791"
+     inkscape:cy="99.309657"
+     inkscape:window-width="1827"
+     inkscape:window-height="1166"
+     inkscape:window-x="82"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1249">
+    <linearGradient
+       x1="24.714943"
+       y1="22.898218"
+       x2="151.13554"
+       y2="148.33669"
+       id="linearGradient-1"
+       gradientTransform="scale(0.9988868,1.0011144)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#387EB8"
+         offset="0%"
+         id="stop1239" />
+      <stop
+         stop-color="#366994"
+         offset="100%"
+         id="stop1241" />
+    </linearGradient>
+    <linearGradient
+       x1="102.48344"
+       y1="103.26587"
+       x2="238.25964"
+       y2="231.90547"
+       id="linearGradient-2"
+       gradientTransform="scale(0.99888677,1.0011145)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFE052"
+         offset="0%"
+         id="stop1244" />
+      <stop
+         stop-color="#FFC331"
+         offset="100%"
+         id="stop1246" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2688">
+      <path
+         d="m 197.34724,56.247435 c -20.30897,2e-6 -19.04075,8.853296 -19.04075,8.853296 l 0.0226,9.171923 h 19.38036 v 2.753853 h -27.07816 c 0,0 -12.99571,-1.481546 -12.99571,19.117658 0,20.599195 11.34294,19.868705 11.34294,19.868705 h 6.76954 v -9.55883 c 0,0 -0.36489,-11.402314 11.16182,-11.402314 h 19.22187 c 0,0 10.79957,0.17549 10.79957,-10.491952 V 66.92146 c 0,-2e-6 1.63967,-10.674025 -19.58412,-10.674025 z m -10.68637,6.16772 c 1.92821,-10e-7 3.48665,1.566607 3.48665,3.504904 1e-5,1.938296 -1.55844,3.504903 -3.48665,3.504903 -1.9282,2e-6 -3.48665,-1.566607 -3.48665,-3.504903 0,-1.938297 1.55845,-3.504904 3.48665,-3.504904 z"
+         fill="url(#linearGradient-1)"
+         id="path2690"
+         style="fill:url(#linearGradient2692);stroke-width:0.314073" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient-1"
+       id="linearGradient2692"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.31290524,0,0,0.31524461,157.59034,56.224676)"
+       x1="24.714943"
+       y1="22.898218"
+       x2="151.13554"
+       y2="148.33669" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="White Snake">
+    <rect
+       style="fill:#ffffff"
+       id="rect2504"
+       width="105.3338"
+       height="101.78721"
+       x="139.02643"
+       y="43.977749"
+       clip-path="url(#clipPath2688)" />
+  </g>
+  <g
+     id="g1255"
+     transform="matrix(0.31325395,0,0,0.31489369,157.59034,56.224676)">
+    <path
+       d="m 128.7571,254.12627 c 64.8323,0 60.78374,-28.11519 60.78374,-28.11519 l -0.0723,-29.12705 h -61.86787 v -8.74534 h 86.44156 c 0,0 41.48617,4.7049 41.48617,-60.71148 2e-5,-65.416353 -36.21005,-63.096551 -36.21005,-63.096551 h -21.61039 v 30.355724 c 0,0 1.16487,36.210047 -35.63185,36.210047 h -61.36195 c 0,0 -34.475435,-0.55729 -34.475435,33.31906 v 56.01355 c 0,0 -5.234323,33.89723 62.518355,33.89723 v 0 z m 34.11406,-19.58667 c -6.1554,0 -11.13043,-4.97504 -11.13043,-11.13044 0,-6.1554 4.97503,-11.13043 11.13043,-11.13043 6.1554,0 11.13043,4.97503 11.13043,11.13043 3e-5,6.1554 -4.97503,11.13044 -11.13043,11.13044 z"
+       fill="url(#linearGradient-2)"
+       id="path1253"
+       style="fill:url(#linearGradient-2)" />
+  </g>
+</svg>
