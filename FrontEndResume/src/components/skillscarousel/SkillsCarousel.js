@@ -79,7 +79,7 @@ const SkillsCarousel = () => {
                             <div style={{'height':'40em'}}>
                                 <img
                                     className="d-block w-100"
-                                    src={`https://localhost:8000/images/image/skills/${elem}`}
+                                    src={`https://isaiahlandin.com/images/image/skills/${elem}`}
                                     style={{
                                         'width': 'auto',
                                         'height':'40em',
