@@ -6,7 +6,7 @@ import isaiah from '../../imgs/Isaiah_Landin.jpg';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-// import BootstrapImage from '../../images/skills/Bootstrap.svg';
+import CSSImage from '../../images/skills/CSS.png';
 
 const skills = [0];
 const styleCarousel = {
@@ -80,7 +80,7 @@ const SkillsCarousel = () => {
                             <div style={{'height':'40em'}}>
                                 <img
                                     className="d-block w-100"
-                                    src={`http://localhost:8000/images/image/skills/${elem}`}
+                                    src={`https://localhost:8000/images/image/skills/${elem}`}
                                     style={{
                                         'width': 'auto',
                                         'height':'40em',
